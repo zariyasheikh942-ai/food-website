@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Syne+Tactile&display=swap');
+
+body{
+    background-color: #223442;
+    color: white;
+}
+div{
+    width: 300px;
+    height: 350px;
+    border: 2px inset #6ab6f4;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(10, 85, 142, 0.5);
+}
+h1{
+    color: #6ab6f4;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-family: "Montserrat", sans-serif;
+   padding-bottom: 20px;
+}
+
+#name{
+width: 65%;
+background-color: #223442;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+margin-bottom: 20px;
+border: 2px solid #6ab6f4;
+color: rgb(248, 248, 248);
+padding-left: 60px;
+background-image: url('em.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: 20px;
+}
+
+#name::placeholder{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+#pswrd{
+width: 65%;
+background-color: #223442;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 20px;
+margin-bottom: 20px;
+border: 2px solid #6ab6f4;
+color: rgb(248, 248, 248);
+padding-left: 60px;
+background-image: url('image-removebg-preview.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: 20px;
+}
+#pswrd::placeholder{
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+ 
+}
+button{
+    background-color: #223442;
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:20px;
+    border: 1px solid #273f52;
+  color: #6ab6f4;
+  font-family:"Montserrat", sans-serif ;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.9px ;
+  margin-bottom: 30px;
+}
+span{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #6ab6f4;
+    font-weight: 600;
+}
+#name:focus{
+outline: 0px solid #6ab6f4;
+}
+#pswrd:focus{
+outline: 0px solid #6ab6f4;
+}
